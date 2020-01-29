@@ -89,7 +89,7 @@ body
   position: relative;
   width:37%;
   left:15%;
-  margin-top:-8%;
+  margin-top:-1%;
   font-size:2.5vw;
 }
 
@@ -291,7 +291,7 @@ body
     height: 5px;
     border-radius: 50%;
     background-color: rgba(210,210,210,0.8);
-    margin:0px 0 25px 0;
+    margin:0px 0 33px 0;
     position: relative;
     left:-2px;
     top:15px;
@@ -303,7 +303,7 @@ body
     height: 5px;
     border-radius: 50%;
     background-color: rgba(0,0,0,1);
-    margin:0px 0 25px 0;
+    margin:0px 0 33px 0;
     position: relative;
     left:-2px;
     top:15px;
@@ -322,7 +322,7 @@ body
   {
     float:left;
     position: relative;
-    top:0.5px;
+    top:-2.5px;
     margin-top:-28px;
     left:8px;
     color:rgba(210,210,210,0.7);
@@ -383,14 +383,15 @@ body
   .parts
   {
     position: relative;
-    top:2%;
+    top:-12%;
     margin-top:25%;
   }
 
   .right
   {
-    top:5%;
+    margin-top:-155px;
     left:-37%;
+
   }
 
   .left
@@ -413,6 +414,7 @@ body
 
   .right
   {
+    top:-310px;
     left:-48%;
     max-width:200%;
   }
@@ -420,101 +422,18 @@ body
   .left
   {
     left:24%;
-    top:50px;
+    top:10px;
   }
 
   .register
   {
+    top:-8%;
     left:37%;
   }
 }
 
 @media only screen and (max-width:422px)
 {
-  .vertical_line
-  {
-    width:1px;
-    background-color: rgba(220,220,220,0.7);
-    margin:0 auto;
-    border-radius: 10px;
-    height: 450px;
-  }
-
-  .dots
-  {
-    width:5px;
-    height: 5px;
-    border-radius: 50%;
-    background-color: rgba(210,210,210,0.8);
-    margin:0px 0 30px 0;
-    position: relative;
-    left:-2px;
-    top:15px;
-  }
-
-  .dots_pts
-  {
-    width:5px;
-    height: 5px;
-    border-radius: 50%;
-    background-color: rgba(0,0,0,1);
-    margin:0px 0 30px 0;
-    position: relative;
-    left:-2px;
-    top:15px;
-  }
-
-  .number
-  {
-    float:right;
-    position: relative;
-    margin-top:7px;
-    left:-8px;
-    z-index:10;
-  }
-
-  .menu
-  {
-    float:left;
-    position: relative;
-    top:0.5px;
-    margin-top:-28px;
-    left:8px;
-    color:rgba(210,210,210,0.7);
-    z-index:10;
-  }
-
-  .parts
-  {
-    position: relative;
-    top:-8%;
-    margin-top:15%;
-  }
-
-  .right
-  {
-    top:-265px;
-    max-width:200%;
-    left:-49%;
-  }
-
-  .register
-  {
-    top:-8%;
-  }
-  
-
-  
-  .left
-  {
-    top:5px;
-  }
-
-}
-
-@media only screen and (max-width:385px)
-{
-
   .vertical_line
   {
     width:1px;
@@ -571,7 +490,91 @@ body
   .parts
   {
     position: relative;
+    top:-7%;
+    margin-top:15%;
+  }
+
+  .right
+  {
+    top:-265px;
+    max-width:200%;
+    left:-49%;
+  }
+
+  .register
+  {
     top:-5%;
+  }
+  
+
+  
+  .left
+  {
+    top:10px;
+  }
+
+}
+
+@media only screen and (max-width:385px)
+{
+
+  .vertical_line
+  {
+    width:1px;
+    background-color: rgba(220,220,220,0.7);
+    margin:0 auto;
+    border-radius: 10px;
+    height: 430px;
+  }
+
+  .dots
+  {
+    width:5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: rgba(210,210,210,0.8);
+    margin:0px 0 27.5px 0;
+    position: relative;
+    left:-2px;
+    top:15px;
+  }
+
+  .dots_pts
+  {
+    width:5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,1);
+    margin:0px 0 27.5px 0;
+    position: relative;
+    left:-2px;
+    top:15px;
+  }
+
+  .number
+  {
+    float:right;
+    position: relative;
+    margin-top:7px;
+    left:-8px;
+    z-index:10;
+  }
+
+  .menu
+  {
+    float:left;
+    position: relative;
+    top:3.5px;
+    margin-top:-28px;
+    left:8px;
+    color:rgba(210,210,210,0.7);
+    z-index:10;
+  }
+
+  .parts
+  {
+    position: relative;
+    top:-7.5%;
     margin-top:15%;
   }
 
@@ -584,14 +587,18 @@ body
 
   .register
   {
-    top:-5%;
+    top:-6%;
     left:41%;
   }
+  
 
+  
   .left
   {
-    top:0px;
+    top:10px;
   }
+
+
 
   .sub_part
   {
@@ -601,14 +608,13 @@ body
 
 @media only screen and (max-width: 361px)
 {
-
   .vertical_line
   {
     width:1px;
     background-color: rgba(220,220,220,0.7);
     margin:0 auto;
     border-radius: 10px;
-    height: 400px;
+    height: 460px;
   }
 
   .dots
@@ -657,7 +663,7 @@ body
   .parts
   {
     position: relative;
-    top:3%;
+    top:-5%;
     margin-top:15%;
   }
 
@@ -671,7 +677,6 @@ body
   .register
   {
     top:-2%;
-    left:42%;
   }
 
   .register p
@@ -686,7 +691,7 @@ body
 
   .left
   {
-    top:40px;
+    top:10px;
   }
 
   .sub_part
@@ -729,7 +734,7 @@ body
 
   .left
   {
-    top:110px;
+    top:10px;
   }
 
   .timeline_wrap
@@ -755,7 +760,7 @@ body
     height: 5px;
     border-radius: 50%;
     background-color: rgba(210,210,210,0.8);
-    margin:0px 0 26px 0;
+    margin:0px 0 25px 0;
     position: relative;
     left:-2px;
     top:15px;
@@ -767,7 +772,7 @@ body
     height: 5px;
     border-radius: 50%;
     background-color: rgba(0,0,0,1);
-    margin:0px 0 26px 0;
+    margin:0px 0 25px 0;
     position: relative;
     left:-2px;
     top:15px;
@@ -786,7 +791,7 @@ body
   {
     float:left;
     position: relative;
-    top:4.5px;
+    top:5.5px;
     margin-top:-28px;
     left:8px;
     color:rgba(210,210,210,0.7);
@@ -796,20 +801,20 @@ body
   .parts
   {
     position: relative;
-    top:-3%;
+    top:0%;
     margin-top:15%;
   }
 
   .right
   {
-    top:-185px;
+    top:-225px;
     max-width:170%;
     left:-40%;
   }
 
   .register
   {
-    top:-3%;
+    top:-4%;
     left:40%;
     width:100px;
   }
@@ -827,176 +832,6 @@ body
   
   .left
   {
-    top:-15px;
+    top:-65px;
   }
-}
-
-@media only screen and (max-width:641px)
-{
-  .vertical_line
-  {
-    width:1px;
-    background-color: rgba(220,220,220,0.7);
-    margin:0 auto;
-    border-radius: 10px;
-    height: 400px;
-  }
-
-  .dots
-  {
-    width:5px;
-    height: 5px;
-    border-radius: 50%;
-    background-color: rgba(210,210,210,0.8);
-    margin:0px 0 26px 0;
-    position: relative;
-    left:-2px;
-    top:15px;
-  }
-
-  .dots_pts
-  {
-    width:5px;
-    height: 5px;
-    border-radius: 50%;
-    background-color: rgba(0,0,0,1);
-    margin:0px 0 26px 0;
-    position: relative;
-    left:-2px;
-    top:15px;
-  }
-
-  .number
-  {
-    float:right;
-    position: relative;
-    margin-top:7px;
-    left:-8px;
-    z-index:10;
-  }
-
-  .menu
-  {
-    float:left;
-    position: relative;
-    top:4.5px;
-    margin-top:-28px;
-    left:8px;
-    color:rgba(210,210,210,0.7);
-    z-index:10;
-  }
-}
-
-@media only screen and (max-height: 737px)
-{
-  .vertical_line
-  {
-    width:1px;
-    background-color: rgba(220,220,220,0.7);
-    margin:0 auto;
-    border-radius: 10px;
-    height: 500px;
-  }
-
-  .dots
-  {
-    width:5px;
-    height: 5px;
-    border-radius: 50%;
-    background-color: rgba(210,210,210,0.8);
-    margin:0px 0 33px 0;
-    position: relative;
-    left:-2px;
-    top:15px;
-  }
-
-  .dots_pts
-  {
-    width:5px;
-    height: 5px;
-    border-radius: 50%;
-    background-color: rgba(0,0,0,1);
-    margin:0px 0 33px 0;
-    position: relative;
-    left:-2px;
-    top:15px;
-  }
-
-  .number
-  {
-    float:right;
-    position: relative;
-    margin-top:7px;
-    left:-8px;
-    z-index:10;
-  }
-
-  .menu
-  {
-    float:left;
-    position: relative;
-    top:4.5px;
-    margin-top:-28px;
-    left:8px;
-    color:rgba(210,210,210,0.7);
-    z-index:10;
-  }
-
-}
-
-@media only screen and (max-height: 813px)
-{
-  .vertical_line
-  {
-    width:1px;
-    background-color: rgba(220,220,220,0.7);
-    margin:0 auto;
-    border-radius: 10px;
-    height: 550px;
-  }
-
-  .dots
-  {
-    width:5px;
-    height: 5px;
-    border-radius: 50%;
-    background-color: rgba(210,210,210,0.8);
-    margin:0px 0 37px 0;
-    position: relative;
-    left:-2px;
-    top:15px;
-  }
-
-  .dots_pts
-  {
-    width:5px;
-    height: 5px;
-    border-radius: 50%;
-    background-color: rgba(0,0,0,1);
-    margin:0px 0 37px 0;
-    position: relative;
-    left:-2px;
-    top:15px;
-  }
-
-  .number
-  {
-    float:right;
-    position: relative;
-    margin-top:7px;
-    left:-8px;
-    z-index:10;
-  }
-
-  .menu
-  {
-    float:left;
-    position: relative;
-    top:4.5px;
-    margin-top:-28px;
-    left:8px;
-    color:rgba(210,210,210,0.7);
-    z-index:10;
-  }
-
 }
