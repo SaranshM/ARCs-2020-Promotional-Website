@@ -1,0 +1,318 @@
+.register2
+{
+  position: relative;
+  top:-160px; 
+  margin:0 auto;
+  width:16%;
+  padding:1% 0;
+  text-align:center;
+  margin-top:-3.5%;
+  background-color: rgba(250,164,26,0.7);
+  color:white;
+  cursor: pointer;
+  transition:0.3s;
+}
+
+.register2:hover
+{
+  background-color:rgba(250,164,26,1);
+  box-shadow:0 0 5px rgba(250,164,26,1),
+              0 0 25px rgba(250,164,26,1),
+              0 0 50px rgba(250,164,26,1),
+              0 0 0px rgba(250,164,26,1);
+  letter-spacing:  3px;
+
+}
+
+.heading_about
+{
+  width:30%;
+  position: relative;
+  top:-15%;
+  margin-top:0%;
+  left:15%;
+  font-size:3vw;
+  line-height: 195%;
+}
+
+.about
+{
+  
+  position: relative;
+  top:-2%;
+  left:15%;
+  margin-top:-2%;
+  width:40%;
+}
+
+.about_text
+{
+  position: relative;
+  top:-15px;
+  font-size:2vw;
+  margin-right: 2%;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+
+.images
+{
+  margin-top:2%;
+  position: relative;
+  left:15%;
+}
+
+.about img
+{
+  cursor: pointer;
+}
+
+.arrow2
+{
+  position: relative;
+  left:0%;
+}
+
+.about1
+{
+  width:13%;
+  height: 120px;
+  margin-right: 2%;
+  border:solid 13px black;
+  max-width:100%;
+  z-index:10;
+  cursor: pointer;
+
+}
+
+.about1:first-child
+{
+  border:solid 13px rgba(250,164,26,1);
+}
+
+@media only screen and (max-width:1000px)
+{
+  .heading_about
+  {
+    margin-top:10%;
+    font-size: 4vw;
+    line-height: 180%;
+    width:43%;
+  }
+
+  .about1
+  {
+    width:17%;
+  }
+
+  .about_text
+  {
+    font-size: 2.8vw;
+  }
+
+  .register2
+  {
+    top:-135px;
+    width:19%;
+  }
+}
+
+@media only screen and (max-width:750px)
+{
+  .register2
+  {
+    top:-120px;
+    width:32%;
+  }
+
+  .heading_about
+  {
+    font-size:5vw;
+    width:50%;
+    line-height: 200%;
+  }
+
+  .about
+  {
+    margin-top:0%;
+  }
+
+  .about_text
+  {
+    font-size:3vw;
+  }
+
+  .images
+  {
+    margin-top:5%;
+  }
+
+  .about1
+  {
+    width:25%;
+    margin-right:2%; 
+  }
+}
+
+@media only screen and (max-width:500px)
+{
+  .register2
+  {
+    width:27%;
+  }
+
+  .timeline_wrap
+  {
+    left:2%;
+  }
+
+  .ieeecs_logo
+  {
+    width:20%;
+  }
+
+  .heading_about
+  {
+    font-size:5.2vw;
+    width:50%;
+    line-height: 230%;
+    position: relative;
+    top:3%;
+    margin-top: 0%;
+    margin-left:3%;
+  }
+
+  .about_text
+  {
+    margin-top:0%;
+    font-size: 6vw;
+  }
+
+  .about
+  {
+    margin-top: 20%;
+    left:25%;
+  }
+
+  .images
+  {
+    position: relative;
+    top:3%;
+    margin-top:40%;
+    left:3%;
+  }
+
+  .about1
+  {
+    width:30%;
+    margin-right:2%; 
+  }
+
+  .register2
+  {
+    display:none;
+  }
+
+  .about
+  {
+    display:none;
+  }
+
+  .about1
+  {
+    display:block;
+    margin-bottom: 40%;
+    position: relative;
+    margin-left:28%;
+    margin-top:-35%;
+    width:45%;
+    height: 120px;
+  }
+}
+
+@media only screen and (max-width:415px)
+{
+  .heading_about
+  {
+    position: relative;
+    top:9%;
+  }
+
+  .images
+  {
+    margin-top:53%;
+  }
+
+  .timeline_wrap
+  {
+    left:4%;
+  }
+}
+
+@media only screen and (max-width:376px)
+{
+  .about1
+  {
+    height: 90px;
+  }
+}
+
+@media only screen and (max-width:376px) and (max-height: 813px)
+{
+
+}
+
+@media only screen and (max-width:361px)
+{
+  
+
+  .heading_about
+  {
+    position: relative;
+    top:8%;
+    left:17%;
+  }
+
+  .images
+  {
+    margin-top: 50%;
+  }
+
+  .about1
+  {
+    height: 100px;
+    width:50%;
+  }
+
+  .timeline_wrap
+  {
+    left:5%;
+  }
+}
+
+@media only screen and (max-width:321px)
+{
+  .heading_about
+  {
+    position: relative;
+    top:10%;
+  }
+
+  .images
+  {
+    margin-top:52%;
+  }
+
+  .about1
+  {
+    height: 80px;
+    width:45%;
+  }
+
+  .timeline_wrap
+  {
+    left:4%;
+  }
+}
