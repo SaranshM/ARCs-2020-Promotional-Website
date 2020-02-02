@@ -67,7 +67,7 @@ body
 {
   float:right;
   position: relative;
-  margin-top:7px;
+  margin-top:9px;
   left:-8px;
   z-index:10;
 }
@@ -76,7 +76,7 @@ body
 {
   float:left;
   position: relative;
-  top:0.5px;
+  top:-3.5px;
   margin-top:-28px;
   left:8px;
   color:rgba(210,210,210,0.7);
