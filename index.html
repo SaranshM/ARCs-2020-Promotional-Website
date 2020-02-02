@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="style/bg.css">
 	<link rel="stylesheet" href="style/home_page.css?version=27">
 	<link rel="stylesheet" href="style/about_page.css">
+  <link rel="stylesheet" href="style/timeline_page.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 </head>
@@ -163,6 +164,76 @@
 		    	<img src="images/about_page/about3.jfif" class="about1" onclick="change(2,1,0)">
 		    </nav>
 		</div>
+    <div class="section s3">
+      <div class="register3">Register Now</div>
+      <div class="heading_timeline">
+        <h1>TimeLine</h1>
+      </div>
+      <div class="timeline_nav_bar">
+        <span><img src="images/timeline_page/nav_left.png" class="nav_left"></span>
+        <span class="timeline_date">19th March 2020</span>
+        <span><img src="images/timeline_page/nav_right.png" class="nav_right"></span>
+      </div>
+      <div class="event_name_wrap">
+        <div class="event_name">
+          <p>01</p>
+          <p>Convoke Speaker 2</p>
+          <p>Importance of Computing</p>
+        </div>
+        <div class="event_name">
+          <p>02</p>
+          <p>Convoke Speaker 2</p>
+          <p>Importance of Computing</p>
+        </div>
+        <div class="event_name">
+          <p>03</p>
+          <p>Convoke Speaker 2</p>
+          <p>Importance of Computing</p>
+        </div>
+        <div class="event_name">
+          <p>04</p>
+          <p>Convoke Speaker 2</p>
+          <p>Importance of Computing</p>
+        </div>
+        <div class="event_name">
+          <p>05</p>
+          <p>Convoke Speaker 2</p>
+          <p>Importance of Computing</p>
+        </div>  
+      </div>
+      <div class="hori_line"></div>
+
+      <div class="dots_wrap">
+        <div class="dots2"></div>
+        <div class="dots2"></div>
+        <div class="dots2"></div>
+        <div class="dots2"></div>
+        <div class="dots2"></div>
+        <div class="dots2"></div>
+        <div class="dots2"></div>
+        <div class="dots2"></div>
+        <div class="dots2"></div>
+        <div class="dots2"></div>
+        <div class="dots2"></div>
+        <div class="dots2"></div>
+        <div class="dots2"></div>
+        <div class="dots2"></div>
+        <div class="dots2"></div>
+        <div class="dots2"></div>
+        <div class="dots2"></div>
+      </div>
+
+      <div class="event_time_wrap">
+        <span class="event_time">19:00hr-21:00hr</span>
+        <span class="event_time">19:00hr-21:00hr</span>
+        <span class="event_time">19:00hr-21:00hr</span>
+        <span class="event_time">19:00hr-21:00hr</span>
+        <span class="event_time">19:00hr-21:00hr</span>
+
+      </div>
+
+
+    </div>
 	</div>
 
 	<div class='bubble bubble-1'></div>
@@ -226,6 +297,16 @@
 					number[0].innerHTML="01";
 					number[2].innerHTML="";
 				}
+        else if(origin.index==1 && direction=='down')
+        {
+          var timeline=document.getElementsByClassName('timeline_wrap')[0];
+          timeline.style.visibility="hidden";
+        }
+        else if(origin.index==2 && direction=='up')
+        {
+          var timeline=document.getElementsByClassName('timeline_wrap')[0];
+          timeline.style.visibility="visible";
+        }
 			}
 		});
 	</script>
