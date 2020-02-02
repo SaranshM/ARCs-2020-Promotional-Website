@@ -197,7 +197,8 @@ left.addEventListener('click',function(){
 		event_name[pos].style.fontSize="1.3vw";
 		// event_name[pos].style.left="13.5%";
 		event_name[pos].style.top="35px";
-		event_name[pos].style.marginRight="2%";	
+		event_name[pos].style.marginRight="2%";
+		event_name[pos+1].style.marginRight="5%";	
 
 		event_time[pos].style.color="rgb(0,0,0)";
 		event_time[pos].style.fontSize="1.4vw";
@@ -296,8 +297,8 @@ left.addEventListener('click',function(){
 		event_name[pos].style.fontSize="1.3vw";
 		// event_name[pos].style.left="13.5%";
 		event_name[pos].style.top="35px";
-		event_name[pos].style.marginRight="2%";
-		event_name[pos+1].style.marginRight="5%";	
+		event_name[pos].style.marginRight="2%";	
+		event_name[pos+1].style.marginRight="5%";
 
 		event_time[pos].style.color="rgb(0,0,0)";
 		event_time[pos].style.fontSize="1.4vw";
