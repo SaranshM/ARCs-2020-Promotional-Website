@@ -39,12 +39,37 @@ var right=document.getElementsByClassName('nav_right')[0];
 var left=document.getElementsByClassName('nav_left')[0];
 var event_name=document.getElementsByClassName('event_name');
 var event_time=document.getElementsByClassName('event_time');
-
+var daytwo=document.getElementsByClassName('daytwo');
+var daytwodate=document.getElementsByClassName('daytwodate');
+var dayone=document.getElementsByClassName('dayone');
+var dayonedate=document.getElementsByClassName('dayonedate');
+daytwo[0].style.display="none";
+daytwodate[0].style.display="none";
 var left_pos=75;
 
 right.addEventListener('click',function(){
+	// daytwo[0].style.display="block";
+	// daytwodate[0].style.display="block";
+	// dayone[0].style.display="none";
+	// dayonedate[0].style.display="none";
+	// pos = 5;
+});
+
+
+left.addEventListener('click',function(){
 	
-	if(pos==2)
+});
+
+
+var x = null;
+var y= null;
+x = setInterval(interval,2000);
+
+
+
+function interval(){
+	
+	if(pos%5==2)
 	{
 		event_name[pos].style.color="rgb(200,200,200)";
 		event_name[pos].style.fontSize="0.8vw";
@@ -75,7 +100,7 @@ right.addEventListener('click',function(){
 
 		
 	}
-	else if(pos==3)
+	else if(pos%5==3)
 	{
 		event_name[pos].style.color="rgb(200,200,200)";
 		event_name[pos].style.fontSize="0.8vw";
@@ -103,11 +128,12 @@ right.addEventListener('click',function(){
 		event_time[3].style.left="76%";
 		event_time[2].style.left="61%";
 		event_time[pos].style.left="88.5%";
+		
 
 		
 	}
 
-	else if(pos==0)
+	else if(pos%5==0)
 	{
 		event_name[pos].style.color="rgb(200,200,200)";
 		event_name[pos].style.fontSize="0.8vw";
@@ -139,7 +165,7 @@ right.addEventListener('click',function(){
 		
 	}
 
-	else if(pos==1)
+	else if(pos%5==1)
 	{
 		event_name[pos].style.color="rgb(200,200,200)";
 		event_name[pos].style.fontSize="0.8vw";
@@ -171,15 +197,17 @@ right.addEventListener('click',function(){
 		
 	}
 
+	else if(pos%5==4)
+	{
+		clearInterval(x);
+		y = setInterval(reverser,2000);
+		
+	}
+}
 
-
-
-
-});
-
-left.addEventListener('click',function(){
-
-	if(pos==2)
+function reverser(){
+		
+	if(pos%5==2)
 	{
 		event_name[pos].style.color="rgb(200,200,200)";
 		event_name[pos].style.fontSize="0.8vw";
@@ -211,7 +239,7 @@ left.addEventListener('click',function(){
 
 		
 	}
-	else if(pos==1)
+	else if(pos%5==1)
 	{
 		event_name[pos].style.color="rgb(200,200,200)";
 		event_name[pos].style.fontSize="0.8vw";
@@ -245,10 +273,13 @@ left.addEventListener('click',function(){
 		event_name[1].style.marginRight="5%";
 		event_name[2].style.marginRight="5%";
 
+		clearInterval(y);
+		x = setInterval(interval,2000);
+
 		
 	}
 
-	else if(pos==4)
+	else if(pos%5==4)
 	{
 		event_name[pos].style.color="rgb(200,200,200)";
 		event_name[pos].style.fontSize="0.8vw";
@@ -279,7 +310,7 @@ left.addEventListener('click',function(){
 
 		
 	}
-	else if(pos==3)
+	else if(pos%5==3)
 	{
 		event_name[pos].style.color="rgb(200,200,200)";
 		event_name[pos].style.fontSize="0.8vw";
@@ -311,8 +342,10 @@ left.addEventListener('click',function(){
 
 		
 	}
-	
-});
+
+}
+
+
 
 
 

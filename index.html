@@ -7,12 +7,31 @@
 	<link rel="stylesheet" href="style/home_page.css?version=27">
 	<link rel="stylesheet" href="style/about_page.css">
   <link rel="stylesheet" href="style/timeline_page.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <!-- -------------- -->
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/assets/owl.carousel.min.css"> 
+  <link rel="stylesheet" href="https://themes.audemedia.com/html/goodgrowth/css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="style/owl.css">
+  <link rel="stylesheet" href="style/events.css">
+  
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
+  <!-- ------------------- -->
+  <link rel="stylesheet" href="style/contact.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+  			
 </head>
+<style>
+/* html{
+  background-color: #202020;
+} */
+</style>
+
 <body>
 
-	<img src="images/home_page/ieecs_logo.png" class="ieeecs_logo">
+	<img src="images/home_page/ieecs_logo.png" class="ieeecs_logo toggle">
 
 	<div class="timeline_wrap">
 
@@ -127,7 +146,8 @@
 		        </div>
 
 		        <div class="sub_part" style="border-color:rgba(210,210,210,0.8)" onclick="display(0,1,2)">
-		          <p class="sub_part_topic">WORKSHOP</p>
+              <p class="sub_part_topic">WORKSHOP</p>
+              <p class="sub_part_content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora, qui.</p>
 		        </div>
 
 		        <div class="pointer">
@@ -135,6 +155,7 @@
 
 		        <div class="sub_part" style="border-color:rgba(210,210,210,0.8);color:rgba(210,210,210,0.8)" onclick="display(1,0,2)">
 		          <p class="sub_part_topic">HACKBATTLE</p>
+              <p class="sub_part_content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora, qui.</p>
 		        </div>
 
 		        <div class="pointer">
@@ -142,9 +163,10 @@
 
 		        <div class="sub_part" style="border-color:rgba(210,210,210,0.8);color:rgba(210,210,210,0.8)" onclick="display(2,1,0)">
 		          <p class="sub_part_topic">WITTY MINDS</p>
+              <p class="sub_part_content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora, qui.</p>
 		        </div>
 			</div>
-		</div>
+    </div>
 
 		<div class="section s2">
 			<div class="register2">Register Now</div>
@@ -158,23 +180,114 @@
 		    	<img src="images/home_page/arrow.png" class="arrow2">
 		    </div>
 
-		    <nav class="images">
-		    	<img src="images/about_page/about1.jfif" class="about1" onclick="change(0,1,2)">
+		    <nav class="images" style="width: 80%;">
+          <p class="sub_part_content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur possimus, nobis reprehenderit vitae sunt consequuntur, illum id consectetur doloribus fugiat ratione enim! Architecto alias iure et odio eligendi hic doloribus sint suscipit placeat, laudantium dolore, aspernatur soluta maiores repellendus beatae amet deserunt, est minima harum quae totam molestiae! Voluptatem, nesciunt! dolore ut doloribus unde animi sint! Ex laborum, dolorem laudantium enim ipsam quae reprehenderit alias quaerat necessitatibus debitis, quis facere?</p>
+          <!-- <img src="images/about_page/about2.jfif" class="about1" onclick="change(0,1,2)">
 		    	<img src="images/about_page/about2.jfif" class="about1" onclick="change(1,2,0)">
-		    	<img src="images/about_page/about3.jfif" class="about1" onclick="change(2,1,0)">
+		    	<img src="images/about_page/about2.jfif" class="about1" onclick="change(2,1,0)"> -->
 		    </nav>
-		</div>
+    </div>
+    
+    
     <div class="section s3">
+      <div class="register3">Register Now</div>
+      <div id="workshop">
+        <div id="select"><div id="select2">Speakers and Workshops</div></div>
+     <section class="testimonials">
+         <div class="container">
+             <br><br><br>
+             <div >
+                 <div id="customers-testimonials" class="owl-carousel owl-theme">
+                     <div class="item">
+                     <img class="shadow-effect" src="1.jpg" class="img-circle" alt="">
+                         <h1>UI/UX</h1>
+                         <p>
+                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                         </p>
+                         
+                     </div>
+                     
+                     <div class="item">
+                     <img class="shadow-effect" src="2.jpg" class="img-circle" alt="">
+                         <h1>UI/UX</h1>
+                         <p>
+                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                         </p>
+                         
+                     </div>
+                      <div class="item">
+                     <img class="shadow-effect" src="03.jpg" class="img-circle" alt="">
+                          <h1>UI/UX</h1>
+                         <p>
+                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                         </p>
+                         
+                     </div>
+                    <div class="item">
+                     <img class="shadow-effect" src="6.jpg" class="img-circle" alt="">
+                        <h1>UI/UX</h1>
+                         <p>
+                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                         </p>
+                         
+                     </div>
+                   <div class="item">
+                     <img class="shadow-effect" src="04.jpg" class="img-circle" alt="">
+                       <h1>UI/UX</h1>
+                         <p>
+                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                         </p>
+                         
+                     </div>
+                     </div>        
+                 </div>
+             </div>
+     </section>
+     </div> 
+
+    </div>
+
+
+
+    <div class="section s4">
       <div class="register3">Register Now</div>
       <div class="heading_timeline">
         <h1>TimeLine</h1>
       </div>
       <div class="timeline_nav_bar">
         <span><img src="images/timeline_page/nav_left.png" class="nav_left"></span>
-        <span class="timeline_date">19th March 2020</span>
+        <span class="timeline_date dayonedate">19th March 2020</span>
+        <span class="timeline_date daytwodate">20th March 2020</span>
         <span><img src="images/timeline_page/nav_right.png" class="nav_right"></span>
       </div>
-      <div class="event_name_wrap">
+      <div class="event_name_wrap dayone">
+        <div class="event_name">
+          <p>01</p>
+          <p>Convoke Speaker 2</p>
+          <p>Importance of Computing</p>
+        </div>
+        <div class="event_name">
+          <p>02</p>
+          <p>Convoke Speaker 2</p>
+          <p>Importance of Computing</p>
+        </div>
+        <div class="event_name">
+          <p>03</p>
+          <p>Convoke Speaker 2</p>
+          <p>Importance of Computing</p>
+        </div>
+        <div class="event_name">
+          <p>04</p>
+          <p>Convoke Speaker 2</p>
+          <p>Importance of Computing</p>
+        </div>
+        <div class="event_name">
+          <p>05</p>
+          <p>Convoke Speaker 2</p>
+          <p>Importance of Computing</p>
+        </div>  
+      </div>
+      <div class="event_name_wrap daytwo">
         <div class="event_name">
           <p>01</p>
           <p>Convoke Speaker 2</p>
@@ -234,9 +347,27 @@
 
 
     </div>
+    <div class="section">
+
+      <div id="contact">
+        <!-- <div id="register3"><div id="register4">Register Now</div></div>   -->
+        
+ <div id="googlemaps"></div>
+<div id="contactform">
+  <div id="address">Pawai 5,31-154 Krakow, Polard</div>
+  <div id="email">ouremail@gmail.com</div>
+  <div id="number">+48 12 628 75 60</div>
+    <div class="m"> <div id="beh">Behance</div></div>
+    <div class="m"> <div id="beh1">dribble</div></div>
+    <div class="m"> <div id="beh2">CONTACT US</div></div>
+</div>   
+</div>
+
+
+    </div>
 	</div>
 
-	<div class='bubble bubble-1'></div>
+	    <div class='bubble bubble-1'></div>
       <div class='bubble bubble-2'></div>
       <div class='bubble bubble-3'></div>
       <div class='bubble bubble-4'></div>
@@ -280,11 +411,11 @@
 					var number = document.getElementsByClassName('number');
 					menu[0].innerHTML="01";
 					menu[0].style.color="rgba(210,210,210,0.8)";
-					menu[2].innerHTML="About";
-					menu[2].style.color="black";
+					menu[1].innerHTML="About";
+					menu[1].style.color="black";
 
 					number[0].innerHTML="";
-					number[2].innerHTML="03";
+					number[1].innerHTML="02";
 
 				}
 				else if(origin.index==1 && direction == 'up'){
@@ -292,20 +423,98 @@
 					var number = document.getElementsByClassName('number');
 					menu[0].innerHTML="Home";
 					menu[0].style.color="rgba(0,0,0,1)";
-					menu[2].innerHTML="03";
-					menu[2].style.color="rgb(210,210,210,0.8)";
+					menu[1].innerHTML="02";
+					menu[1].style.color="rgb(210,210,210,0.8)";
 					number[0].innerHTML="01";
-					number[2].innerHTML="";
+					number[1].innerHTML="";
 				}
         else if(origin.index==1 && direction=='down')
         {
-          var timeline=document.getElementsByClassName('timeline_wrap')[0];
-          timeline.style.visibility="hidden";
+          // var timeline=document.getElementsByClassName('timeline_wrap')[0];
+          // timeline.style.visibility="hidden";
+          var menu = document.getElementsByClassName('menu');
+					var number = document.getElementsByClassName('number');
+					menu[1].innerHTML="02";
+					menu[1].style.color="rgba(210,210,210,0.8)";
+					menu[2].innerHTML="Events";
+					menu[2].style.color="black";
+
+					number[1].innerHTML="";
+					number[2].innerHTML="03";
         }
         else if(origin.index==2 && direction=='up')
         {
-          var timeline=document.getElementsByClassName('timeline_wrap')[0];
-          timeline.style.visibility="visible";
+          // var timeline=document.getElementsByClassName('timeline_wrap')[0];
+          // timeline.style.visibility="visible";
+          var menu = document.getElementsByClassName('menu');
+					var number = document.getElementsByClassName('number');
+					menu[1].innerHTML="About";
+					menu[1].style.color="rgba(0,0,0,1)";
+					menu[2].innerHTML="03";
+					menu[2].style.color="rgb(210,210,210,0.8)";
+					number[1].innerHTML="02";
+					number[2].innerHTML="";
+        }
+        else if(origin.index==2 && direction=='down')
+        {
+          // var timeline=document.getElementsByClassName('timeline_wrap')[0];
+          // timeline.style.visibility="hidden";
+          var menu = document.getElementsByClassName('menu');
+					var number = document.getElementsByClassName('number');
+					menu[2].innerHTML="03";
+					menu[2].style.color="rgba(210,210,210,0.8)";
+					menu[3].innerHTML="TimeLine";
+					menu[3].style.color="black";
+
+					number[2].innerHTML="";
+					number[3].innerHTML="04";
+        }
+        else if(origin.index==3 && direction=='up')
+        {
+          // var timeline=document.getElementsByClassName('timeline_wrap')[0];
+          // timeline.style.visibility="visible";
+          var menu = document.getElementsByClassName('menu');
+					var number = document.getElementsByClassName('number');
+					menu[2].innerHTML="Events";
+					menu[2].style.color="rgba(0,0,0,1)";
+					menu[3].innerHTML="04";
+					menu[3].style.color="rgb(210,210,210,0.8)";
+					number[2].innerHTML="03";
+					number[3].innerHTML="";
+        }
+        else if(origin.index==3 && direction=='down')
+        {
+          // var timeline=document.getElementsByClassName('timeline_wrap')[0];
+          // timeline.style.visibility="hidden";
+          var menu = document.getElementsByClassName('menu');
+          var number = document.getElementsByClassName('number');
+          
+          // var logo = document.getElementsByClassName('toggle');
+          // logo[0].style.display="none";
+					menu[3].innerHTML="04";
+					menu[3].style.color="rgba(210,210,210,0.8)";
+					menu[4].innerHTML="Contact";
+					menu[4].style.color="black";
+
+					number[3].innerHTML="";
+					number[4].innerHTML="05";
+        }
+        else if(origin.index==4 && direction=='up')
+        {
+          // var timeline=document.getElementsByClassName('timeline_wrap')[0];
+          // timeline.style.visibility="visible";
+          
+          // var logo = document.getElementsByClassName('toggle');
+          // logo[0].style.display="block";
+          var menu = document.getElementsByClassName('menu');
+          var number = document.getElementsByClassName('number');
+          
+					menu[3].innerHTML="TimeLine";
+					menu[3].style.color="rgba(0,0,0,1)";
+					menu[4].innerHTML="05";
+					menu[4].style.color="rgb(210,210,210,0.8)";
+					number[3].innerHTML="04";
+					number[4].innerHTML="";
         }
 			}
 		});
@@ -347,6 +556,103 @@
       </script>
 
       <script src="js/js.js"></script>
+
+        <!-- Include the Google Maps API library - required for embedding maps -->
+<script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+<script type="text/javascript">
+
+// The latitude and longitude of your business / place
+var position = [27.1959739, 78.02423269999997];
+
+function showGoogleMaps() {
+
+    var latLng = new google.maps.LatLng(position[0], position[1]);
+
+    var mapOptions = {
+        zoom: 16, // initialize zoom level - the max value is 21
+        streetViewControl: false, // hide the yellow Street View pegman
+        scaleControl: true, // allow users to zoom the Google Map
+        mapTypeId: google.maps.MapTypeId.ROADMAP,
+        center: latLng
+    };
+
+    map = new google.maps.Map(document.getElementById('googlemaps'),
+        mapOptions);
+
+    // Show the default red marker at the location
+    marker = new google.maps.Marker({
+        position: latLng,
+        map: map,
+        draggable: false,
+        animation: google.maps.Animation.DROP
+    });
+}
+
+google.maps.event.addDomListener(window, 'load', showGoogleMaps);
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/owl.carousel.min.js"></script>
+<script>
+
+jQuery(document).ready(function($) {
+        "use strict";
+        
+        $('#customers-testimonials').owlCarousel({
+            
+                loop: true,
+            center: true,
+            items: 3,
+            margin: 0,
+            autoplay: true,
+            dots:false,
+            autoplayTimeout: 8500,
+            smartSpeed: 450,
+                navText: ["",""],
+                navClass: ['owl-prev', 'owl-next'],
+                nav: true,
+                autoplayHoverPause: true,
+                animateOut: 'slideOutUp',
+                animateIn: 'slideInUp',
+            responsive: {
+              0: {
+                items: 3
+                   
+              },
+                  320:
+                    {
+                        items:3
+                    },
+                 321:
+                    {
+                        items:3
+                    },
+                  400:
+                    {
+                        items:3
+                   
+                    },
+                  700:
+                    {
+                        items:2
+                    },
+                    950:
+                    {
+                        items:3
+                    },
+              1000: {
+                items: 3
+              },
+              1200: {
+                items: 3
+              }
+            }
+        });
+    
+      });
+</script>
+
 
 </body>
 </html>
