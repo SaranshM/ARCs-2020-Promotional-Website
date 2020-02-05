@@ -1,7 +1,7 @@
 .register3
 {
   position: relative;
-  top:-370px; 
+  top:-30%; 
   margin:2% auto 0 auto;
   width:16%;
   padding:1% 0;
@@ -26,7 +26,8 @@
 
 .heading_timeline
 {
-  margin-top:-18%;
+  position: relative;
+  top:-18%;
   text-align: center;
 }
 
@@ -42,7 +43,7 @@
   margin:0 auto;
   text-align:center;
   position: relative;
-  top:10%;
+  top:-10%;
 }
 
 .timeline_date
@@ -56,154 +57,116 @@
 {
   margin-right: 4%;
   cursor: pointer;
+  position: relative;
+  top:-20px;
 }
 
 .nav_right
 {
   margin-left: 4%;
   cursor: pointer;
+  position: relative;
+  top:-20px;
 }
 
 .hori_timeline_wrap
 {
+  position: relative;
+  top:-12%;
+}
+
+.event_name_wrap
+{
+  display:flex;
+  flex-grow:6;
+  justify-content: space-between;
+  width:87%;
+  margin:0 auto;
   text-align: center;
-  margin-top: 13%;
+  position: relative;
+  top:15.5vh;
+}
+
+.event_name
+{
+  font-size:1vw;
+  line-height: 100%;
+  position: relative;
+}
+
+
+.event_name:nth-child(3)
+{
+  font-size:1.5vw;
+  font-weight: bold;
+  position: relative;
+  top:-6vh;
+  margin:0 -3%;
 }
 
 
 .hori_line
 {
-  width:75%;
-  height: 1px;
+  height: 1.5px;
+  width:80%;
   background-color: rgb(200,200,200);
   margin:0 auto;
   position: relative;
-  top:20%;
-}
-
-.event_name_wrap
-{
-  position: relative;
-  top:13%;
-  height: 10%;
-  width:90%;
-  text-align: center;
-  display: block;
-}
-
-.event_name
-{
-  float:left;
-  
-  position: relative;
-  top:65px;
-  left:13.5%;
-  font-size:0.8vw;
-  margin-right: 5%;
-  font-weight: bold;
-  color:rgb(200,200,200);
-  transition:0.1s;
-}
-
-.event_name:nth-child(3)
-{
-  font-size:1.3vw;
-  margin-right: 2%;
-  color:black;
-  top:35px;
-  font-weight: 700;
-}
-
-.event_name:nth-child(2)
-{
-  margin-right: 2.3%;
+  top:13vh;
 }
 
 .dots_wrap
 {
-  
+  display:flex;
+  justify-content: space-between;
+  width:75%;
+  margin:0 auto;
   position: relative;
-  top:19.5%;
-  display: block;
-  width:70%;
+  top:12.55vh;
+}
+
+.dots2,.dots2_pt
+{
+  height: 5px;
+  width:5px;
+  border-radius: 50%;
 }
 
 .dots2
 {
-  height: 5px;
-  width:5px;
-  border-radius:50%;
-  float:left;
   background-color: rgb(170,170,170);
-  margin-right:5%;
-  position: relative;
-  left:25%;
 }
 
-.dots2:nth-child(1)
+.dots2_pt
 {
-  background-color: black;
-}
-
-.dots2:nth-child(5)
-{
-  background-color: black;
-}
-
-.dots2:nth-child(9)
-{
-  background-color: black;
-}
-
-.dots2:nth-child(13)
-{
-  background-color: black;
-}
-
-.dots2:nth-child(17)
-{
-  background-color: black;
+  background-color: rgb(0,0,0);
 }
 
 .event_time_wrap
 {
+  display:flex;
+  flex-grow:6;
+  justify-content: space-between;
+  width:82%;
+  margin:0 auto;
+  text-align: center;
   position: relative;
-  top:21.5%;
-  float:left;
+  top:14vh;
 }
 
 .event_time
 {
   position: relative;
-  left:29.8%;
-  font-size: 1.1vw;
-  color:rgb(200,200,200);
-  transition:0.1s;
-}
-
-.event_time:nth-child(2)
-{
-  position: relative;
-  left:45.5%;
+  font-size:1vw;
 }
 
 .event_time:nth-child(3)
 {
-  position: relative;
-  left:58.5%;
+  font-size:1.5vw;
   font-weight: bold;
-  font-size:1.4vw;
-  color:black;
+  position: relative;
+  top:1vh;
+  margin:0 -2%;
 }
 
-.event_time:nth-child(4)
-{
-  position: relative;
-  left:71%;
-}
 
-.event_time:nth-child(5)
-{
-  position: relative;
-  left:86.5%;
-}

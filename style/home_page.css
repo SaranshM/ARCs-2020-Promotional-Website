@@ -181,8 +181,6 @@ body
 
 @media only screen and (max-width:1000px)
 {
-  
-
   .timeline_wrap
   {
     left:1%;
@@ -229,7 +227,7 @@ body
 {
   body
   {
-    background-color: white;
+    background-color: red;
   }
 
   .left
