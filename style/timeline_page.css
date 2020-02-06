@@ -59,7 +59,11 @@
   cursor: pointer;
   position: relative;
   top:-20px;
+ 
+  z-index:100;
 }
+
+
 
 .nav_right
 {
@@ -67,12 +71,14 @@
   cursor: pointer;
   position: relative;
   top:-20px;
+  z-index:100;
 }
 
 .hori_timeline_wrap
 {
   position: relative;
-  top:-12%;
+  top:-18%;
+  left:2.5%;
 }
 
 .event_name_wrap
