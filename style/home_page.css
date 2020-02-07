@@ -90,14 +90,19 @@ body
   width:37%;
   left:15%;
   margin-top:-1%;
-  font-size:2.5vw;
+}
+
+.left h1
+{
+  font-size:4.5vw;
+  font-weight: 900;
 }
 
 .right
 {
   position: relative;
   left:14%;
-  margin-top:-30%;
+  margin-top:-27%;
   max-width:100%;
   height: auto;
 }
@@ -106,7 +111,7 @@ body
 {
   
   position: relative;
-  margin-top:-9%;
+  margin-top:-12%;
   left:19.5%;
   width:130px;
   background-color:  rgba(250,164,26,0.8);
@@ -136,7 +141,7 @@ body
 {
   position: relative;
   left:55%;
-  margin-top:-20%;
+  margin-top:-37.5%;
   max-width: 100%;
   height: auto;
 }
@@ -181,6 +186,7 @@ body
 
 @media only screen and (max-width:1000px)
 {
+
   .timeline_wrap
   {
     left:1%;
@@ -200,7 +206,7 @@ body
   .register
   {
     position: relative;
-    top:3%;
+    top:-3%;
     left:22.5%;
     height: 4%;
   }
@@ -220,20 +226,44 @@ body
   {
     margin-top:8%;
   }
+
+  .left
+  {
+    position: relative;
+    margin-top:-5%;
+  }
+
+  .left h1
+  {
+    font-size:7.5vw;
+  }
+
+  .right
+  {
+    max-width:120%;
+    margin-top:-35%;
+  }
+
+  .parts
+  {
+    margin-top: -4%;
+  }
 }
 
 
 @media only screen and (max-width:700px)
 {
-  body
-  {
-    background-color: red;
-  }
+  
 
   .left
   {
-    margin-top:15%;
+    margin-top:-10%;
     font-size:3.7vw;
+  }
+
+  .left h1
+  {
+    font-size: 7.7vw;
   }
 
   .right
@@ -246,7 +276,7 @@ body
   .register
   {
     position: relative;
-    top:-8%;
+    top:-5%;
     left:24.5%;
   }
 
@@ -339,6 +369,11 @@ body
     margin-top:66%;
     font-size:4.2vw;
     width:50%;
+  }
+
+  .left h1
+  {
+    font-size: 9vw;
   }
 
   .right
@@ -488,7 +523,7 @@ body
   .parts
   {
     position: relative;
-    top:-7%;
+    top:-12%;
     margin-top:15%;
   }
 
@@ -589,18 +624,19 @@ body
     left:41%;
   }
   
-
-  
   .left
   {
     top:10px;
   }
 
-
-
   .sub_part
   {
     font-size:3vw;
+  }
+
+  .register p
+  {
+    top:3.5px;
   }
 }
 
@@ -805,14 +841,14 @@ body
 
   .right
   {
-    top:-225px;
-    max-width:170%;
-    left:-40%;
+    top:-200px;
+    max-width:190%;
+    left:-45%;
   }
 
   .register
   {
-    top:-4%;
+    top:2%;
     left:40%;
     width:100px;
   }
@@ -820,6 +856,7 @@ body
   .register p
   {
     font-size:3vw;
+
   }
 
   .arrow
@@ -830,6 +867,11 @@ body
   
   .left
   {
-    top:-65px;
+    top:-10px;
+  }
+
+  .left h1
+  {
+    font-size:10vw;
   }
 }

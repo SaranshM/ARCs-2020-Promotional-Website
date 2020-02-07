@@ -53,7 +53,7 @@ function change(pic,same1,same2)
 	// dayone[0].style.display="none";
 	// dayonedate[0].style.display="none";
 	// pos = 5;
-});
+// });
 
 
 // left.addEventListener('click',function(){
