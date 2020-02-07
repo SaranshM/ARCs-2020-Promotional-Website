@@ -271,7 +271,7 @@
   .images figcaption
   {
     position: relative;
-    top:-160px;
+    top:-33vw;
     left:28%;
   }
 }
@@ -290,12 +290,13 @@
   .heading_about
   {
     position: relative;
-    top:3%;
+    top:7%;
+    left:23%;
   }
 
   .images
   {
-    margin-top:43%;
+    margin-top:46%;
   }
 
   .timeline_wrap
@@ -309,12 +310,19 @@
   .heading_about
   {
     position: relative;
-    top:-1%;
+    top:3%;
+    left:23%;
   }
 
   .images
   {
-    margin-top:37%;
+    margin-top:44%;
+  }
+
+  .about1
+  {
+    width:60%;
+    height: 13vh;
   }
 }
 
@@ -326,13 +334,13 @@
   .heading_about
   {
     position: relative;
-    top:-4%;
-    left:17%;
+    top:4%;
+    left:23%;
   }
 
   .images
   {
-    margin-top: 30%;
+    margin-top: 40%;
   }
 
   .about1
@@ -352,12 +360,15 @@
   .heading_about
   {
     position: relative;
-    top:-8%;
+    top:8%;
+    left:25%;
   }
 
   .images
   {
-    margin-top:27%;
+    margin-top:48%;
+    position: relative;
+    left:5%;
   }
 
   .about1
