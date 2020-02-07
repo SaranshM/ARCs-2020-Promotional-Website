@@ -1,7 +1,7 @@
 .register2
 {
   position: relative;
-  top:-140px; 
+  top:-20%; 
   margin:2% auto 0 auto;
   width:16%;
   padding:1% 0;
@@ -26,13 +26,19 @@
 
 .heading_about
 {
-  width:30%;
+  width:23%;
   position: relative;
   top:-15%;
   margin-top:0%;
   left:15%;
-  font-size:3vw;
+  
   line-height: 195%;
+}
+
+.heading_about h1
+{
+  font-size:4.5vw;
+  font-weight: 900;
 }
 
 .about
@@ -59,9 +65,18 @@
 
 .images
 {
-  margin-top:2%;
+  display:flex;
+  justify-content: space-around;
+  width:65%;
   position: relative;
-  left:15%;
+  left:12%;
+}
+
+
+.images figcaption
+{
+  font-weight: 900;
+  margin-top:5%;
 }
 
 .about img
@@ -73,23 +88,31 @@
 {
   position: relative;
   left:0%;
+  top:-20px;
 }
 
 .about1
 {
   width:225px;
   height: 120px;
-  margin-right: 2%;
   border:solid 8px black;
   max-width:100%;
   z-index:10;
   cursor: pointer;
-
+  flex-shrink:3;
 }
 
 .about1:hover
 {
   border:solid 8px rgba(250,164,26,1);
+}
+
+@media only screen and (max-width:1100px)
+{
+  .images
+  {
+    width:85%;
+  }
 }
 
 @media only screen and (max-width:1000px)
@@ -102,7 +125,7 @@
     margin-top:10%;
     font-size: 4vw;
     line-height: 180%;
-    width:43%;
+    width:33%;
   }
 
   .about1
@@ -121,6 +144,11 @@
     top:-135px;
     width:19%;
   }
+
+  .heading_about h1
+  {
+    font-size:6.5vw;
+  }
 }
 
 @media only screen and (max-width:750px)
@@ -129,18 +157,24 @@
   {
     top:-120px;
     width:32%;
+    
   }
 
   .heading_about
   {
     font-size:5vw;
-    width:50%;
+    width:45%;
     line-height: 200%;
+  }
+
+  .heading_about h1
+  {
+    font-size: 8.5vw;
   }
 
   .about
   {
-    margin-top:0%;
+    margin-top:-5%;
   }
 
   .about_text
@@ -155,7 +189,7 @@
 
   .about1
   {
-    width:25%;
+    width:85%;
     margin-right:2%; 
   }
 }
@@ -179,13 +213,17 @@
 
   .heading_about
   {
-    font-size:5.2vw;
-    width:50%;
+    width:45%;
     line-height: 230%;
     position: relative;
     top:3%;
     margin-top: 0%;
     margin-left:3%;
+  }
+
+  .heading_about h1
+  {
+    font-size:9vw;
   }
 
   .about_text
@@ -203,15 +241,10 @@
   .images
   {
     position: relative;
-    top:3%;
+    top:0%;
     margin-top:40%;
     left:3%;
-  }
-
-  .about1
-  {
-    width:30%;
-    margin-right:2%; 
+    display: block;
   }
 
   .register2
@@ -232,7 +265,23 @@
     margin-left:28%;
     margin-top:-35%;
     width:45%;
-    height: 120px;
+    height: 15vh;
+  }
+
+  .images figcaption
+  {
+    position: relative;
+    top:-160px;
+    left:28%;
+  }
+}
+
+@media only screen and (max-width:472px)
+{
+  .heading_about
+  {
+    position: relative;
+    top:5%;
   }
 }
 
