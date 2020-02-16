@@ -39,7 +39,8 @@ body {
 }
 
 .bubble {
-  background: radial-gradient(circle at 15px 15px, rgb(250,164,26) 50%, rgb(0,0,0));
+  /* background: radial-gradient(circle at 15px 15px, rgb(250,164,26) 50%, rgb(0,0,0)); */
+  background: #faa41a;
   display: inline-block;
   width: 40px;
   height: 40px;

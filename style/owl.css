@@ -80,7 +80,7 @@
              margin-bottom: 80px;
              opacity: 1;
              transform: scale3d(0.8, 0.8, 1);
-             transition: all .5s ease-in-out;
+             transition: all .1s ease-in-out;
   
          }
          .item
@@ -260,7 +260,7 @@
              height: 50px;
              width: 50px;
              border-radius: 50%;
-             background-image: url(left5.png);
+             background-image: url(../images/events_page/left.png);
              background-size: cover;
              color: white;
              position: absolute;
@@ -426,7 +426,7 @@
              height: 35px;
              width: 35px;
              border-radius: 50%;
-             background-image: url(left5.PNG);
+             background-image: url(../images/events_page/left.png);
              background-size: cover;
              color: white;
              position: relative;
@@ -516,7 +516,7 @@
              height: 35px;
              width: 35px;
              border-radius: 50%;
-             background-image: url(left5.PNG);
+             background-image: url(../images/events_page/left.png);
              background-size: cover;
              color: white;
              position: relative;
@@ -600,7 +600,7 @@
              height: 35px;
              width: 35px;
              border-radius: 50%;
-             background-image: url(left5.PNG);
+             background-image: url(../images/events_page/left.png);
              background-size: cover;
              color: white;
              position: relative;
@@ -638,7 +638,7 @@
              height: 35px;
              width: 35px;
              border-radius: 50%;
-             background-image: url(left5.PNG);
+             background-image: url(../images/events_page/left.png);
              background-size: cover;
              color: white;
              position: relative;
@@ -795,7 +795,7 @@
              height: 35px;
              width: 35px;
              border-radius: 50%;
-             background-image: url(left5.PNG);
+             background-image: url(../images/events_page/left.png);
              background-size: cover;
              color: white;
              position: relative;
@@ -877,7 +877,7 @@
              height: 35px;
              width: 35px;
              border-radius: 50%;
-             background-image: url(left5.PNG);
+             background-image: url(../images/events_page/left.png);
              background-size: cover;
              color: white;
              position: relative;

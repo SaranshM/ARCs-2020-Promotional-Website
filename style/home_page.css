@@ -14,16 +14,25 @@ body
 {
   position: relative;
   left: 2%;
-  width:12%;
+  /* width:12%; */
+  height: 3em;
   z-index:10;
-  margin-top:1%;
+  top: 20px;
+  /* margin-top:1%; */
+}
+.fooling{
+  position: relative;
+  /* width:12% !important; */
+  height: 70px;
 }
 
 
 .timeline_wrap
 {
   position: absolute;
-  top:30px;
+  /* top:30px; */
+  top: 50%;
+  transform: translate(0,-50%);
   left:-1%;
   width:2%;
   padding: 4%;
@@ -110,13 +119,16 @@ body
 .register
 {
   
+  height: auto !important;
   position: relative;
   margin-top:-12%;
-  left:19.5%;
-  width:130px;
+  left:15%;
+  width:160px;
+  text-align: center;
   background-color:  rgba(250,164,26,0.8);
-  height: 4.5%;
+  /* height: 4.5%; */
   cursor: pointer;
+  padding: 10px 14px 10px 14px;
   transition:300ms;
   z-index:10;
 
@@ -129,9 +141,10 @@ body
 
 .register p
 {
+  margin: 0 !important;
   position: relative;
-  top:25%;
-  left:-50%;
+  /* top:25%; */
+  /* left:-50%; */
   font-size:100%;
   font-weight: bold;
   cursor: pointer;
@@ -194,7 +207,7 @@ body
 
   .ieeecs_logo
   {
-    width:14%;
+    /* width:14%; */
   }
 
   .part1
@@ -207,13 +220,13 @@ body
   {
     position: relative;
     top:-3%;
-    left:22.5%;
+    left:15%;
     height: 4%;
   }
 
   .register p
   {
-    top:6px;
+    /* top:6px; */
   }
 
   .arrow
@@ -277,7 +290,7 @@ body
   {
     position: relative;
     top:-5%;
-    left:24.5%;
+    left:15%;
   }
 
   .parts
@@ -359,7 +372,7 @@ body
 
   .ieeecs_logo
   {
-    width:18%;
+    /* width:18%; */
   }
 
   .left
@@ -368,12 +381,19 @@ body
     top:-40px;
     margin-top:66%;
     font-size:4.2vw;
-    width:50%;
+    width:80%;
   }
 
   .left h1
   {
     font-size: 9vw;
+  }
+  
+  .left h4
+  {
+    text-align: end;
+    position: absolute;
+    right: 12.6%;
   }
 
   .right
@@ -387,13 +407,14 @@ body
   .register
   {
     position: relative;
-    top:-6%;
+    top:0%;
     margin-top:-32.5%;
-    left:28%;
+    left:10%;
   }
 
   .parts
   {
+    display: none;
     position: relative;
     top:-7%;
     left:-13.5%;
@@ -431,10 +452,16 @@ body
   {
     left:24%;
   }
-
+  
+  .left h4
+  {
+    text-align: end;
+    position: absolute;
+    right: 0%;
+  }
   .register
   {
-    left:37%;
+    left:10%;
   }
 }
 
@@ -454,14 +481,20 @@ body
 
   .left
   {
-    left:24%;
-    top:10px;
+    left:10%;
+    top:-7px;
+  }
+  .left h4
+  {
+    text-align: end;
+    position: absolute;
+    right: 0%;
   }
 
   .register
   {
-    top:-8%;
-    left:37%;
+    top:-5%;
+    left:10%;
   }
 }
 
@@ -529,23 +562,28 @@ body
 
   .right
   {
-    top:-265px;
+    top:-330px;
     max-width:200%;
     left:-49%;
   }
 
   .register
   {
-    top:-5%;
+    top:0%;
   }
   
 
   
   .left
   {
-    top:10px;
+    top:-7px;
   }
-
+  .left h4
+  {
+    text-align: end;
+    position: absolute;
+    right: 0%;
+  }
 }
 
 @media only screen and (max-width:385px)
@@ -621,12 +659,18 @@ body
   .register
   {
     top:-6%;
-    left:41%;
+    left:10%;
   }
   
   .left
   {
-    top:10px;
+    top:-7px;
+  }
+  .left h4
+  {
+    text-align: end;
+    position: absolute;
+    right: 0%;
   }
 
   .sub_part
@@ -636,7 +680,7 @@ body
 
   .register p
   {
-    top:3.5px;
+    /* top:3.5px; */
   }
 }
 
@@ -703,19 +747,20 @@ body
 
   .right
   {
-    top:-225px;
+    top:-269px;
     max-width:200%;
     left:-49%;
   }
 
   .register
   {
-    top:-2%;
+    height: auto !important;
+    top:3%;
   }
 
   .register p
   {
-    top:20%;
+    /* top:20%; */
   }
 
   .arrow
@@ -725,7 +770,13 @@ body
 
   .left
   {
-    top:10px;
+    top:-7px;
+  }
+  .left h4
+  {
+    text-align: end;
+    position: absolute;
+    right: 0%;
   }
 
   .sub_part
@@ -758,17 +809,23 @@ body
 
   .right
   {
-    top:-220px;
+    top:-269px;
   }
 
   .register
   {
-    top:2%;
+    top:5%;
   }
 
   .left
   {
     top:10px;
+  }
+  .left h4
+  {
+    text-align: end;
+    position: absolute;
+    right: 0%;
   }
 
   .timeline_wrap
@@ -841,16 +898,17 @@ body
 
   .right
   {
-    top:-200px;
+    /* top:-200px; */
+    top: -248px;
     max-width:190%;
     left:-45%;
   }
 
   .register
   {
-    top:2%;
-    left:40%;
-    width:100px;
+    top:5%;
+    left:10%;
+    /* width:100px; */
   }
 
   .register p
@@ -867,7 +925,13 @@ body
   
   .left
   {
-    top:-10px;
+    top:-35px;
+  }
+  .left h4
+  {
+    text-align: end;
+    position: absolute;
+    right: 0%;
   }
 
   .left h1

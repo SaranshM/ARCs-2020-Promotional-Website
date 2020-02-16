@@ -27,7 +27,7 @@
 .heading_timeline
 {
   position: relative;
-  top:-18%;
+  /* top:-18%; */
   text-align: center;
 }
 
@@ -43,7 +43,10 @@
   margin:0 auto;
   text-align:center;
   position: relative;
-  top:-10%;
+  /* top:-10%; */
+  
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .timeline_date
@@ -77,8 +80,8 @@
 .hori_timeline_wrap
 {
   position: relative;
-  top:-18%;
-  left:2.5%;
+  /* top:-18%;
+  left:2.5%; */
 }
 
 .event_name_wrap
@@ -90,15 +93,17 @@
   margin:0 auto;
   text-align: center;
   position: relative;
-  top:15.5vh;
+  /* top:15.5vh; */
   
 }
 
 .event_name
 {
-  font-size:1vw;
   line-height: 100%;
   position: relative;
+  
+  font-size:1.1vw;
+  font-weight: bold;
   
 }
 
@@ -110,7 +115,7 @@
   background-color: rgb(200,200,200);
   margin:0 auto;
   position: relative;
-  top:13vh;
+  /* top:13vh; */
   
 }
 
@@ -121,7 +126,7 @@
   width:75%;
   margin:0 auto;
   position: relative;
-  top:12.55vh;
+  top:-.45vh;
 }
 
 .dots2,.dots2_pt
@@ -150,16 +155,26 @@
   margin:0 auto;
   text-align: center;
   position: relative;
-  top:14vh;
+  /* top:14vh; */
 }
 
 .event_time
 {
   position: relative;
-  font-size:1vw;
+  font-size:1.1vw;
+  font-weight: bold;
 }
-
-
+.time_outer{
+  display: inline-block;
+  width: 300%;
+  margin: auto;
+  transition: 1s ease;
+  overflow: hidden;
+}
+.alltime{
+  float: left;
+  width: 33.33333% !important;
+}
 
 
 @media only screen and (max-width:1000px)
@@ -192,7 +207,7 @@
   .event_name_wrap
   {
     width:90%;
-    top:14.5vh;
+    /* top:14.5vh; */
   }
 
   .dots_wrap
@@ -221,7 +236,7 @@
     width:90%;
     margin-left:8%;
     position: relative;
-    top:-7vh;
+    /* top:-7vh; */
   }
 
   .hori_line
@@ -231,13 +246,13 @@
 
   .event_time,.event_name
   {
-    font-size: 1.2vw;
+    font-size: 2.2vw;
   }
 
   .event_name_wrap
   {
     width:100%;
-    top:14.5vh;
+    /* top:14.5vh; */
   }
 
   .dots_wrap
@@ -256,11 +271,34 @@
 
 }
 
+.time_hide2{
+  display: none;
+}
 
 @media only screen and (max-width:650px)
 {
+  .time_box{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+  }
+  .time_box ul{
+    width: 80%;
+    background-color: #ffffff;
+    box-shadow: inset 0px 8px 18px rgba(0, 0, 0, 0.25);
+    margin: auto;
+  }
+  .time_box li{
+    padding: 5px;
+  }
   
-
+.time_box li:nth-child(even) {background-color: #202020; color: #ffffff;}
+  .time_hide{
+    display: none;
+  }
+  .time_hide2{
+    display: inline-block;
+  }
 
   .register3
   {
@@ -270,7 +308,7 @@
   .heading_timeline
   {
     position: relative;
-    top:-20%;
+    /* top:-20%; */
   }
 
   .heading_timeline h1
@@ -281,25 +319,25 @@
   .timeline_nav_bar
   {
     position: relative;
-    top:-12%;
+    /* top:-12%; */
   }
 
   .timeline_date
   {
-    top:-20px;
-    font-size: 3vw;
+    /* top:-20px; */
+    font-size: 5vw;
   }
 
   .hori_timeline_wrap
   {
-    top:-18vh;
+    /* top:-18vh; */
     width:65%;
     height: 30vh;
-    overflow-x: scroll;
+    overflow-x: hidden;
     overflow-y: hidden;
     margin:0 auto;
     position: relative;
-    top:-5vh;
+    /* top:-5vh; */
 
   }
 
@@ -308,7 +346,7 @@
   .event_name_wrap
   {
     width:490%;
-    top:6vh;
+    /* top:6vh; */
     left:20.5%;
     transition:0.3s;
   }
@@ -325,16 +363,17 @@
 
   .hori_line
   {
-    width:440%;
-    left:45%;
-    top:6.5vh;
+    width:500%;
+    /* left:45%; */
+    /* top:6.5vh; */
+    /* top: 6.68vh; */
     transition:0.3s;
   }
 
   .dots_wrap
   {
     width:430%;
-    top:6.1vh;
+    /* top:6.1vh; */
     left:50%;
     transition:0.3s;
   }
@@ -343,7 +382,7 @@
   {
     width:465%;
     left:33%;
-    top:9vh;
+    /* top:9vh; */
     transition:0.3s;
   }
 
@@ -352,7 +391,7 @@
     line-height: 150%;
     position: relative;
     font-weight: bold;
-    top:-3vh;
+    /* top:-3vh; */
   }
 
   .event_time

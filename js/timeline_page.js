@@ -7,12 +7,12 @@ if(window.innerWidth<=650)
 	
 	center_name.style.fontSize="3vw";
 	center_name.style.fontWeight="bold";
-	center_name.style.top="-3vh";
+	// center_name.style.top="-3vh";
 	center_name.style.margin="0% 0%";
 	center_name.style.lineHeight="50%";
 	center_time.style.fontSize="3vw";
 	center_time.style.fontWeight="bold";
-	center_time.style.top="0vh";
+	// center_time.style.top="0vh";
 	center_time.style.margin="0% 0%";
 }
 else
@@ -21,12 +21,12 @@ else
 	
 	center_name.style.fontSize="1.5vw";
 	center_name.style.fontWeight="bold";
-	center_name.style.top="-6vh";
+	// center_name.style.top="-6vh";
 	center_name.style.margin="0% -3%";
 
 	center_time.style.fontSize="1.5vw";
 	center_time.style.fontWeight="bold";
-	center_time.style.top="1vh";
+	// center_time.style.top="1vh";
 	center_time.style.margin="0% -2%";
 
 }
@@ -72,25 +72,25 @@ next.addEventListener('click',function(){
 	else if(pos<=3 && pos2<4)
 	{
 		event_name[pos].style.fontSize="1vw";
-		event_name[pos].style.top="0vh";
+		// event_name[pos].style.top="0vh";
 		event_name[pos].style.margin="0% 0%";
 		event_name[pos].style.fontWeight="unset";
 
 		event_time[pos].style.fontSize="1vw";
-		event_time[pos].style.top="0vw";
+		// event_time[pos].style.top="0vw";
 		event_time[pos].style.margin="0% 0%";
 		event_time[pos].style.fontWeight="unset";
 
 		pos=pos+1;
 		event_name[pos].style.fontSize="1.5vw";
 		event_name[pos].style.fontWeight="bold";
-		event_name[pos].style.top="-6vh";
+		// event_name[pos].style.top="-6vh";
 		event_name[pos].style.margin="0% -3.5%";
 
 
 		event_time[pos].style.fontSize="1.5vw";
 		event_time[pos].style.fontWeight="bold";
-		event_time[pos].style.top="1vw";
+		// event_time[pos].style.top="1vw";
 		event_time[pos].style.margin="0% -2%";	
 	}
 	
@@ -105,20 +105,20 @@ window.addEventListener('resize',function(e){
 	{
 		center_name.style.fontSize="1.5vw";
 		center_name.style.fontWeight="bold";
-		center_name.style.top="-6vh";
+		// center_name.style.top="0vh";
 		center_name.style.margin="0% -3%";
 		center_name.style.lineHeight="100%";
 
 		center_time.style.fontSize="1.5vw";
 		center_time.style.fontWeight="bold";
-		center_time.style.top="1vh";
+		// center_time.style.top="0vh";
 		center_time.style.margin="0% -2%";
 		var i;
 		for(i=0;i<5;i++)
 		{
 			if(i!=pos)
 			{
-				event_name[i].style.top="-2vh";
+				event_name[i].style.top="0vh";
 			}
 		}
 	}
@@ -126,12 +126,12 @@ window.addEventListener('resize',function(e){
 	{
 		center_name.style.fontSize="3vw";
 		center_name.style.fontWeight="bold";
-		center_name.style.top="-3vh";
+		// center_name.style.top="0vh";
 		center_name.style.margin="0% 0%";
 		center_name.style.lineHeight="50%";
 		center_time.style.fontSize="3vw";
 		center_time.style.fontWeight="bold";
-		center_time.style.top="0vh";
+		// center_time.style.top="0vh";
 		center_time.style.margin="0% 0%";
 	}
 });
@@ -157,24 +157,24 @@ prev.addEventListener('click',function(){
 	{
 		
 		event_name[pos].style.fontSize="1vw";
-		event_name[pos].style.top="0vh";
+		// event_name[pos].style.top="0vh";
 		event_name[pos].style.margin="0% 0%";
 		event_name[pos].style.fontWeight="unset";
 
 		event_time[pos].style.fontSize="1vw";
-		event_time[pos].style.top="0vw";
+		// event_time[pos].style.top="0vw";
 		event_time[pos].style.margin="0% 0%";
 		event_time[pos].style.fontWeight="unset";
 
 		pos=pos-1;
 		event_name[pos].style.fontSize="1.5vw";
 		event_name[pos].style.fontWeight="bold";
-		event_name[pos].style.top="-6vh";
+		// event_name[pos].style.top="-6vh";
 		event_name[pos].style.margin="0% -3.5%";
 
 		event_time[pos].style.fontSize="1.5vw";
 		event_time[pos].style.fontWeight="bold";
-		event_time[pos].style.top="1vw";
+		// event_time[pos].style.top="1vw";
 		event_time[pos].style.margin="0% -2%";
 	}
 

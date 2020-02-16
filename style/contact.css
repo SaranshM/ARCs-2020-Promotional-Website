@@ -61,40 +61,48 @@
           justify-content: center;
            z-index: 1000;
        }
-#workshop
+/* #workshop
     {
         position: absolute;
         top:60px;
         height: 100vh;
         width: 100%;
-    }
+    } */
 #contact
     {
-        position: absolute;
+        /* position: absolute;
         top:0px;
         height: 100vh;
-        width: 100%;
+        width: 100%; */
     }
 #googlemaps {
   height: 80%;
   width: 80%;
   position:absolute;
-  top: 42%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+  /* box-shadow: inset 0px 8px 18px rgba(0, 0, 0, 0.25); */
   z-index: 0;
    
     /* Set z-index to 0 as it will be on a layer below the contact form */
 }
-
+@media(max-width:600px){
+    .timeline_wrap{
+        display: none;
+    }}
 @media(max-width:400px){
+    .timeline_wrap{
+        display: none;
+    }
     #googlemaps{
-        height: 100%;
-        width: 100%;
-        top: 0;
-        left: 0;
-        transform: translate(0,0);
+        height: 80%;
+        width: 90%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
     }
 }
      #googlemaps:before {
@@ -171,7 +179,8 @@
         display: flex;
         justify-content: center;
         align-content: center;
-        background-color: aqua;
+        /* background-color: aqua; */
+        background-color: #1769FF;
         padding-top: 15px;
         padding-bottom: 15px;
         width: 200px;
@@ -182,7 +191,8 @@
     {
         display: flex;
         justify-content: center;
-        background-color: pink;
+        /* background-color: pink; */
+        background-color: #EA4C89;
         padding-top: 15px;
         padding-bottom: 15px;
         width: 200px;
@@ -245,7 +255,7 @@
         display: flex;
         justify-content: center;
         align-content: center;
-        background-color: aqua;
+        background-color: #1769FF;
         padding-top: 10px;
         padding-bottom: 10px;
         width: 180px;
@@ -256,7 +266,7 @@
     {
         display: flex;
         justify-content: center;
-        background-color: pink;
+        background-color: #EA4C89;
         padding-top: 10px;
         padding-bottom: 10px;
         width: 180px;
@@ -268,10 +278,30 @@
       content: '';
       height: 100%;
       width: 100%;
-      background: linear-gradient(to right, rgba(255, 255, 2555, 1) ,rgba(255, 255, 2555, 0));
+      background: linear-gradient(to right, rgba(255, 255, 255, 1) ,rgba(255, 255, 255, 0));
       pointer-events: none;
        z-index: 999;
    }
     
    
+    }
+    .contact_content{
+        display: none;
+    }
+    @media(max-width:600px){
+        #contactform{
+            display: none;
+        }
+        .contact_content{
+            display: block;
+            position: absolute;
+    top: 18%;
+    text-align: center;
+    width: 100%;
+    font-size: 2em;
+    font-weight: bold;
+        }
+        #googlemaps{
+            height: 50%;
+        }
     }

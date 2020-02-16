@@ -1,14 +1,16 @@
 .register2
 {
   position: relative;
-  top:-20%; 
-  margin:2% auto 0 auto;
+  /* top:-7%;  */
+  margin:2% auto 0 10%;
   width:16%;
   padding:1% 0;
   text-align:center;
-  margin-top:-3.5%;
-  background-color: rgba(250,164,26,0.7);
-  color:white;
+  /* margin-top:-3.5%; */
+  background-color: rgba(250,164,26,0.8);
+  letter-spacing: 1.5px;
+  /* color:white; */
+  color: #202020;
   cursor: pointer;
   transition:0.3s;
 }
@@ -23,14 +25,21 @@
   letter-spacing:  3px;
 
 }
+.outer_about{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%,-50%);
+}
 
 .heading_about
 {
   width:23%;
   position: relative;
-  top:-15%;
-  margin-top:0%;
-  left:15%;
+  /* top:-15%;
+  margin-top:0%; */
+  left:10%;
   
   line-height: 195%;
 }
@@ -45,16 +54,17 @@
 {
   
   position: relative;
-  top:-2%;
-  left:15%;
-  margin-top:-2%;
-  width:40%;
+  /* top:-2%; */
+  left:10%;
+  text-align: justify;
+  /* margin-top:-2%; */
+  width:80%;
 }
 
 .about_text
 {
   position: relative;
-  top:-15px;
+  /* top:-15px; */
   font-size:2vw;
   margin-right: 2%;
   font-weight: bold;
@@ -88,7 +98,7 @@
 {
   position: relative;
   left:0%;
-  top:-20px;
+  /* top:-20px; */
 }
 
 .about1
@@ -122,7 +132,7 @@
   }
   .heading_about
   {
-    margin-top:10%;
+    /* margin-top:10%; */
     font-size: 4vw;
     line-height: 180%;
     width:33%;
@@ -141,7 +151,7 @@
 
   .register2
   {
-    top:-135px;
+    /* top:-135px; */
     width:19%;
   }
 
@@ -155,7 +165,7 @@
 {
   .register2
   {
-    top:-120px;
+    /* top:-120px; */
     width:32%;
     
   }
@@ -174,7 +184,7 @@
 
   .about
   {
-    margin-top:-5%;
+    /* margin-top:-5%; */
   }
 
   .about_text
@@ -198,7 +208,8 @@
 {
   .register2
   {
-    width:27%;
+    width:45%;
+    padding: 2%;
   }
 
   .timeline_wrap
@@ -208,7 +219,8 @@
 
   .ieeecs_logo
   {
-    width:20%;
+    /* width:20%; */
+    height: 2em;
   }
 
   .heading_about
@@ -216,9 +228,9 @@
     width:45%;
     line-height: 230%;
     position: relative;
-    top:3%;
-    margin-top: 0%;
-    margin-left:3%;
+    /* top:3%; */
+    /* margin-top: 0%; */
+    /* margin-left:3%; */
   }
 
   .heading_about h1
@@ -228,14 +240,14 @@
 
   .about_text
   {
-    margin-top:0%;
+    /* margin-top:0%; */
     font-size: 6vw;
   }
 
   .about
   {
-    margin-top: 20%;
-    left:25%;
+    /* margin-top: 20%; */
+    /* left:25%; */
   }
 
   .images
@@ -247,14 +259,14 @@
     display: block;
   }
 
-  .register2
+  /* .register2
   {
     display:none;
-  }
+  } */
 
   .about
   {
-    display:none;
+    /* display:none; */
   }
 
   .about1
@@ -281,7 +293,7 @@
   .heading_about
   {
     position: relative;
-    top:5%;
+    /* top:5%; */
   }
 }
 
@@ -290,8 +302,8 @@
   .heading_about
   {
     position: relative;
-    top:7%;
-    left:23%;
+    /* top:7%; */
+    /* left:23%; */
   }
 
   .images
@@ -310,8 +322,8 @@
   .heading_about
   {
     position: relative;
-    top:3%;
-    left:23%;
+    /* top:3%; */
+    /* left:23%; */
   }
 
   .images
@@ -334,8 +346,8 @@
   .heading_about
   {
     position: relative;
-    top:4%;
-    left:23%;
+    /* top:4%; */
+    /* left:23%; */
   }
 
   .images
@@ -360,8 +372,8 @@
   .heading_about
   {
     position: relative;
-    top:8%;
-    left:25%;
+    /* top:8%; */
+    /* left:25%; */
   }
 
   .images
