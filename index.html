@@ -24,6 +24,7 @@
   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style/animate.css">
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -37,6 +38,13 @@
   			
 </head>
 <style>
+
+  .mycolumn
+  {
+    margin-right: 20px;
+    position: relative;
+    left:100px;
+  }
   .timeline_wrap{
     display: none;
   }
@@ -548,27 +556,25 @@ li{
           <div class="event_name">
             <p>01</p>
             <p>Inaugration</p>
-            <!-- <p>Importance of computing</p> -->
+            
           </div>
           <div class="event_name">
             <p>02</p>
             <p>Workshop 1</p>
-            <!-- <p>Importance of computing</p> -->
+           
           </div>
           <div class="event_name">
             <p>03</p>
             <p>Convoke '20</p>
-            <!-- <p>Importance of computing</p> -->
+            
           </div>
           <div class="event_name">
             <p>04</p>
             <p>HackBattle '20</p>
-            <!-- <p>Importance of computing</p> -->
           </div>
           <div class="event_name">
             <p>05</p>
             <p>Convoke Speaker 2</p>
-            <p>Importance of computing</p>
           </div>
         </div>
 
@@ -625,27 +631,22 @@ li{
           <div class="event_name">
             <p>01</p>
             <p>HackBattle</p>
-            <p>Hackathon</p>
           </div>
           <div class="event_name">
             <p>02</p>
             <p>HackBattle</p>
-            <p>Hackathon</p>
           </div>
           <div class="event_name">
             <p>03</p>
             <p>HackBattle</p>
-            <p>Hackathon</p>
           </div>
           <div class="event_name">
             <p>04</p>
             <p>HackBattle</p>
-            <p>Hackathon</p>
           </div>
           <div class="event_name">
             <p>05</p>
             <p>HackBattle</p>
-            <p>Hackathon</p>
           </div>
         </div>
 
@@ -698,27 +699,22 @@ li{
           <div class="event_name">
             <p>01</p>
             <p>HackBattle</p>
-            <p>Hackathon</p>
           </div>
           <div class="event_name">
             <p>02</p>
             <p>Convoke '20</p>
-            <p><!-- Importance of computing --></p>
           </div>
           <div class="event_name">
             <p>03</p>
             <p>Valedictory</p>
-            <p><!-- Importance of computing --></p>
           </div>
           <div class="event_name">
             <p>04</p>
             <p>Workshop 4</p>
-            <p><!-- Importance of computing --></p>
           </div>
           <div class="event_name">
             <p>05</p>
             <p>Convoke Speaker 2</p>
-            <p>Importance of computing</p>
           </div>
         </div>
 
@@ -863,9 +859,21 @@ A 9-hour workshop on Cyber Security, along with hands-on-experience from our spe
     </div>
       </div>
 
+       <div class="mycolumn">
+    <div class="mycard mycard3">
+      <div class="eve_head">HackBattle '20</div>
+      <div class="eve_content"><img src="./images/event_logos/hb.png"></div>
+      <button class=" trigger read_more" data-iziModal-open="#hb">Read More</button>
+    </div>
+  </div>
+
+  <div id="hb" class="iziModal">
+  Strength lies not in defence but in attack. Showcase your best weapons, in our very own battlefield. Ranging from Web applications to Mobile apps, HackBattle'20, a 36-hour Hack-a-thon, gives all the developers out there a chance to do something for the community and win prizes along the way.
+</div>
+
       
       <div class="mycolumn">
-    <div class="mycard mycard3">
+    <div class="mycard mycard2">
       <div class="eve_head">Convoke</div>
       <div class="eve_content"><img src="./images/event_logos/ux.png"></div>
       <button class=" trigger read_more" data-iziModal-open="#convoke">Read More</button>
@@ -878,6 +886,8 @@ A 9-hour workshop on Cyber Security, along with hands-on-experience from our spe
 A 2-day technical Congress, CONVOKE, is a common ground for experts from different parts of the industry, who share their real-life experience with the students. 
 This year's theme, Quantum Computing, allows the speakers to showcase the colossal impact that they have made on the society allowing them to inspire the future generations.
 </div>
+
+ 
 
 
   </div>
@@ -970,9 +980,9 @@ This year's theme, Quantum Computing, allows the speakers to showcase the coloss
         </div>
  <div id="googlemaps"></div>
 <div id="contactform"><b>
-  <div id="address">Pawai 5,31-154 Krakow, Polard</div>
-  <div id="email">ouremail@gmail.com</div>
-  <div id="number">+48 12 628 75 60</div>
+  <div id="address">Pawai 5,31-154 Krakow, Koushik Saha</div>
+  <div id="email">arcs.register@gmail.com</div>
+  <div id="number">+91 82495 73248</div>
 </b>
     <div class="m"> <div id="beh">Behance</div></div>
     <div class="m"> <div id="beh1">dribble</div></div>
@@ -1203,7 +1213,16 @@ $("#convoke").iziModal({
   radius: 5,
   padding: 20,
    closeButton: true,
-   title: 'Cyber Security',
+   title: 'Convoke',
+   headerColor: '#202020',
+   /* bodyOverflow: Forcing overflow hidden in the document when opening the modal, closing the modal, overflow will be restored. */
+   bodyOverflow: false,
+});
+$("#hb").iziModal({
+  radius: 5,
+  padding: 20,
+   closeButton: true,
+   title: "HackBattle '20",
    headerColor: '#202020',
    /* bodyOverflow: Forcing overflow hidden in the document when opening the modal, closing the modal, overflow will be restored. */
    bodyOverflow: false,
@@ -1294,13 +1313,13 @@ jQuery(document).ready(function($) {
             autoplay: true,
             dots:false,
             autoplayTimeout: 8500,
-            smartSpeed: 450,
+            smartSpeed: 500,
                 navText: ["",""],
                 navClass: ['owl-prev', 'owl-next'],
                 nav: true,
                 autoplayHoverPause: true,
-                animateOut: 'slideOutUp',
-                animateIn: 'slideInUp',
+               
+                
             responsive: {
               0: {
                 items: 3

@@ -27,7 +27,7 @@
 .heading_timeline
 {
   position: relative;
-  /* top:-18%; */
+   top:-10%; 
   text-align: center;
 }
 
@@ -88,11 +88,14 @@
 {
   display:flex;
   flex-grow:6;
+  
+  width:90%;
   justify-content: space-between;
-  width:87%;
   margin:0 auto;
   text-align: center;
   position: relative;
+  
+
   /* top:15.5vh; */
   
 }
@@ -104,8 +107,13 @@
   
   font-size:1.1vw;
   font-weight: bold;
+ 
+  text-align: center;
+  width:15%;
   
 }
+
+
 
 
 .hori_line
