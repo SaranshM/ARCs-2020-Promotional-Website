@@ -215,7 +215,7 @@ a:hover{
   
   font-size: 4em;
   cursor: pointer;
-  text-decoration: line-through;
+  text-decoration: none;
 }
 li{
   list-style-type: none;
@@ -530,7 +530,7 @@ li{
     <div class="section s4">
       <!-- <div class="register3">Register Now</div> -->
       
-      <div class="register2" style="margin: auto !important;">Register Now</div>
+      <div class="register2" style="margin: auto !important;position: relative;top:55%">Register Now</div>
       <div class="heading_timeline">
         <h1>TimeLine</h1>
       </div>
@@ -547,23 +547,23 @@ li{
         <div class="event_name_wrap">
           <div class="event_name">
             <p>01</p>
-            <p>Inaugraion</p>
-            <p><!-- Importance of computing --></p>
+            <p>Inaugration</p>
+            <!-- <p>Importance of computing</p> -->
           </div>
           <div class="event_name">
             <p>02</p>
             <p>Workshop 1</p>
-            <p><!-- Importance of computing --></p>
+            <!-- <p>Importance of computing</p> -->
           </div>
           <div class="event_name">
             <p>03</p>
             <p>Convoke '20</p>
-            <p><!-- Importance of computing --></p>
+            <!-- <p>Importance of computing</p> -->
           </div>
           <div class="event_name">
             <p>04</p>
             <p>HackBattle '20</p>
-            <p><!-- Importance of computing --></p>
+            <!-- <p>Importance of computing</p> -->
           </div>
           <div class="event_name">
             <p>05</p>
@@ -1191,6 +1191,15 @@ google.maps.event.addDomListener(window, 'load', showGoogleMaps);
    bodyOverflow: false,
 });
 $("#cyber").iziModal({
+  radius: 5,
+  padding: 20,
+   closeButton: true,
+   title: 'Cyber Security',
+   headerColor: '#202020',
+   /* bodyOverflow: Forcing overflow hidden in the document when opening the modal, closing the modal, overflow will be restored. */
+   bodyOverflow: false,
+});
+$("#convoke").iziModal({
   radius: 5,
   padding: 20,
    closeButton: true,
