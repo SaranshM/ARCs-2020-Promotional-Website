@@ -388,7 +388,7 @@ li{
       <div class="part1">
 		      <div class="left">
             <h1>Your next interactive experience</h1>
-            <h4 style="color: #333333;"><b>VIT,Vellore<br>March 19-21</b></h4>
+            <h4 style="color: #333333;letter-spacing: 0.5px;"><b>VIT, Vellore<br>March 19-21</b></h4>
 		      </div>
 		      <img src="images/home_page/logo1.png" class="right">      
 		    </div>
@@ -429,7 +429,9 @@ li{
       <div class="outer_about">
         
 			<div class="heading_about">
-		    	<h1>We believe in passionation</h1>
+		    	<h1>We</h1>
+          <h1>Believe In</h1>
+          <h1>Your Passion</h1>
 		    </div>
 
 		    <div class="about">
@@ -833,7 +835,7 @@ In a world full of intrusions, we provide you with a small way of safe-guarding 
 A 9-hour workshop on Cyber Security, along with hands-on-experience from our speaker.
 </div>
 
-
+  
       <div class="mycolumn">
     <div class="mycard mycard3">
       <div class="eve_head">UI/UX</div>
@@ -892,12 +894,14 @@ This year's theme, Quantum Computing, allows the speakers to showcase the coloss
 
   </div>
   <div class="eve_nav">
+    <span class="eve_nav_span">
     <div class="eve_prev">
     <img src="./images/events_page/left.png">
     </div>
     <div class="eve_next">  
     <img src="./images/events_page/right.png">
     </div>
+  </span>
   </div>
 </div>  
 
@@ -1277,8 +1281,8 @@ $("#hb").iziModal({
         $('.hamcontainer').animate({left:"100%"});
     });
     $(".eve_next").click(function(){
-      if(-1450<x){
-      x=x-290;
+      if(-1692<x){
+      x=x-310;
       $(".mycard_container").css("transform","translate("+x+"px,0)");
     }
     else{
@@ -1366,9 +1370,9 @@ jQuery(document).ready(function($) {
       <script type="text/javascript">
         $(document).ready(function(){
           $('.right').tilt({
-            maxTilt:10,
+            maxTilt:20,
             glare:true,
-            maxGlare:1
+            maxGlare:0.9
           });
         });
       </script>

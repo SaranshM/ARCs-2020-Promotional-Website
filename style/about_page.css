@@ -35,19 +35,20 @@
 
 .heading_about
 {
-  width:23%;
   position: relative;
   /* top:-15%;
   margin-top:0%; */
   left:10%;
-  
-  line-height: 195%;
+  top:-2vw;
+  line-height: 75%;
 }
 
 .heading_about h1
 {
   font-size:4.5vw;
   font-weight: 900;
+  line-height: 75%;
+  width:80vw;
 }
 
 .about
@@ -98,7 +99,7 @@
 {
   position: relative;
   left:0%;
-  /* top:-20px; */
+   top:-5px; 
 }
 
 .about1

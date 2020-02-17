@@ -1720,30 +1720,53 @@
      }
 
      @media(max-width:800px){
+
          .events_heading{
              font-size: 2.5em;
          }
          .outer{
-             padding-left: 0;
-             width: 290px;
-             justify-content: space-evenly;
+             width: 320px;
+             justify-content: space-between;
              overflow-x: hidden !important;
+             
          }
          .mycard_container{
              display: inline-block;
-             width: 1740px;
+             width: 2200px;
          }
          .mycolumn{
-             padding-left:10px;
-             padding-right:10px;
+             padding-right:20px;
              width: 290px;
              float: left;
              text-align: center;
+             position: relative;
+             
+             margin-right: 5%;
+             
          }
          .mycard{
              margin: auto;
-             width: 270px !important;
+             width: 320px !important;
+             position: relative;
+             left:-110px;
          }
+         .eve_prev img, .eve_next img{
+             height: 3em;
+         }
+          .eve_nav
+          {
+            display:flex;
+            
+            width:40%;
+            margin:3% auto 0 auto;
+          }
+
+          .eve_nav_span
+          {
+            
+            display:flex;
+            margin: 0 auto;
+          }
      }
      @media(max-width:740px){
         /* .mycard2{
